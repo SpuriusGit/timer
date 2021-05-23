@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: gray;
 }
 #block{
     display: flex;
@@ -14,13 +14,13 @@ body{
     height: 200px;
     width: 80%;
     margin: 0 auto;
-    background-color:aquamarine;
+    background-color:gray;
 }
 #timer div{
     display: flex;
     height: 180px;
-    width: 20%;
-    border-radius: 50%;
+    width: 15%;
+    border-radius: 15px;
     margin: auto;
     font-size: 90px;
     line-height:170px;
