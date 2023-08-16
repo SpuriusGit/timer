@@ -1,30 +1,93 @@
-body{
-    background-color: gray;
+body {
+  background-color: gray;
 }
-#block{
-    display: flex;
-    justify-content: center;
+#block {
+  display: flex;
+  justify-content: center;
 }
-#block h1{
-    font-size: 50px;
-    font-style: italic;
+#block h1 {
+  font-size: 50px;
+  font-style: italic;
 }
-#timer{
-    display: flex;
-    height: 200px;
-    width: 80%;
-    margin: 0 auto;
-    background-color:gray;
+#timer {
+  display: flex;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: gray;
 }
-#timer div{
-    display: flex;
-    height: 180px;
-    width: 15%;
-    border-radius: 15px;
-    margin: auto;
-    font-size: 90px;
-    line-height:170px;
-    justify-content: center;
-    background-color: azure;
-    color: darkblue;
+#timer div {
+  display: flex;
+  height: 180px;
+  width: 15%;
+  border-radius: 15px;
+  margin: auto;
+  font-size: 90px;
+  line-height: 170px;
+  justify-content: center;
+  background-color: azure;
+  color: darkblue;
+}
+
+body {
+  background-color: gray;
+}
+#block {
+  display: flex;
+  justify-content: center;
+}
+#block h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+#timer {
+  display: flex;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: gray;
+}
+#timer div {
+  display: flex;
+  height: 180px;
+  width: 15%;
+  border-radius: 15px;
+  margin: auto;
+  font-size: 90px;
+  line-height: 170px;
+  justify-content: center;
+  background-color: azure;
+  color: darkblue;
+}
+
+.input-chat {
+  /* Фіксоване розташування внизу */
+  position: fixed;
+  bottom: 0;
+
+  /* Ширина на всю ширину */
+  width: 100%;
+
+  /* Внутрішні відступи */
+  padding: 0.5rem;
+
+  /* Колір фону */
+  background-color: #ffffff;
+
+  /* Закруглені верхні кути */
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+
+  /* Тінь */
+  box-shadow: 1px -5px 18px -6px rgba(153, 151, 153, 1);
+}
+
+textarea {
+  overflow-x: scroll;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  background-color: #f3f4f6;
+  resize: none;
+  height: 40px;
 }
