@@ -4,13 +4,22 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: gray;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 #block {
   display: flex;
   justify-content: center;
 }
+
 #block h1 {
   font-size: 50px;
   font-style: italic;
@@ -35,9 +44,6 @@ body {
   color: darkblue;
 }
 
-body {
-  background-color: gray;
-}
 #block {
   display: flex;
   justify-content: center;
@@ -96,4 +102,13 @@ textarea {
   background-color: #f3f4f6;
   resize: none;
   height: 40px;
+}
+
+.input-container {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  padding: 20px;
 }
